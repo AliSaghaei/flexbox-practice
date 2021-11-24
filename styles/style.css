@@ -1,0 +1,116 @@
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+/* Global */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* Nav Styles */
+.nav-ul {
+  display: flex;
+  justify-content: space-evenly;
+  border-bottom: solid 1px black;
+  margin: 0.62rem;
+  padding: 0.62rem;
+  flex-wrap: wrap;
+}
+
+.nav-li {
+  list-style: none;
+  padding: 1.25rem;
+  background-color: aqua;
+  margin-bottom: 0.62rem;
+  text-align: center;
+  width: 7.5rem;
+  border-radius: 1.25rem;
+}
+
+.nav-li a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-li a:hover {
+  color: blue;
+  font-size: 1.1rem;
+  position: relative;
+}
+
+/* Description */
+.textBox {
+  padding: 1.8rem;
+  margin: 1.5rem;
+  border: gray 1px solid;
+  border-radius: 1.25rem;
+}
+
+.textBox h2,
+.textBox p {
+  padding: 1.25rem;
+}
+
+/* Cards */
+.card-box {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.card {
+  width: 12.5rem;
+  height: 17.75rem;
+  background-color: #bbb4a1;
+  border-radius: 1.25rem;
+  margin: 10px;
+}
+
+.card img {
+  display: block;
+  margin: 2rem auto;
+}
+.card p {
+  text-align: center;
+  margin-top: 4rem;
+}
+.card a {
+  display: block;
+  width: 5rem;
+  margin: 10px auto;
+  text-align: center;
+  background-color: #ff2626;
+  color: black;
+  padding: 10px;
+  border-radius: 1rem;
+}
+
+/* Rules */
+.rulesBox {
+  display: flex;
+}
+
+.rulesBox h2 {
+  border-right: solid 1px black;
+}
+
+.rulesBox li {
+  margin-left: 2.5rem;
+}
+
+/* table */
+.table {
+  margin: 2.5rem auto;
+  width: 60%;
+}
+
+.table,
+.table tr td {
+  border: solid 1px black;
+}
+.table tr td:hover {
+  background-color: aqua;
+}
